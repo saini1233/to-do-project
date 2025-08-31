@@ -1,7 +1,8 @@
 # to-do-project
-required packages on server 
+**required packages on server **
  sudo apt update && sudo apt upgrade -y
-  sudo apt install nginx git -y
+ sudo apt install nginx git -y   ## for webserver
+ sudo npm install -g pm2   ## for PM2 – Process Manager for Node.js
 
 This project shows you a webpage, where you add you to-dos and it saves in the backend task.json file.
 Make sure after cloning, edit the your server ip in file script.json in 1st line.
