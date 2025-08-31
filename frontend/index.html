@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>To-Do List</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>My Tasks</h1>
-  <input id="taskInput" placeholder="Enter task" />
-  <button onclick="addTask()">Add</button>
+
+  <!-- Input Row -->
+  <div class="input-row">
+    <input id="taskInput" placeholder="Enter task" />
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <!-- Task List -->
   <ul id="taskList"></ul>
 
+  <!-- Script -->
   <script src="script.js"></script>
 </body>
 </html>
