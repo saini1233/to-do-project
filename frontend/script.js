@@ -1,4 +1,4 @@
-const API_URL = 'http://13.203.219.195:3000/tasks';
+const API_URL = 'http://your_ip:3000/tasks';
 
 // Fetch tasks
 async function fetchTasks() {
